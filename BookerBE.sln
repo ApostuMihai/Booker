@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booker", "Booker.csproj", "{A596513A-1D7C-48E9-AD49-7B4027B0A997}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A596513A-1D7C-48E9-AD49-7B4027B0A997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A596513A-1D7C-48E9-AD49-7B4027B0A997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A596513A-1D7C-48E9-AD49-7B4027B0A997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A596513A-1D7C-48E9-AD49-7B4027B0A997}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

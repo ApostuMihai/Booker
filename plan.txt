@@ -1,0 +1,32 @@
+﻿Useri -> userId/pass/firstName/lastName/BookCollection[]/description
+Products(books) -> title/author/genre/reviews[]
+
+
+Sa vezi maine cum faci logica pentru colectia de carti (idee: drag&drop sa le muti dintr-o parte in alta(sa aiba 3 stari, unread, in progress, read).
+
+
+Posibil adaugare site-uri de unde poti sa cumperi cartea(?)
+
+Your database should have at least three main entities: Users, Books, and a junction table that I'll call UserBooks to handle the many-to-many relationship between users and books, along with the state of each book for each user.
+Users Table
+
+    UserID (Primary Key)
+    Username
+    Email
+    Additional user-related fields as required.
+
+Books Table
+
+    BookID (Primary Key)
+    Title
+    Author
+    ISBN
+    Other relevant book details (e.g., publication date, genre).
+
+UserBooks Table
+
+    UserBookID (Primary Key)
+    UserID (Foreign Key)
+    BookID (Foreign Key)
+    State (Enum with values 'unread', 'in progress', 'read')
+    Additional fields if needed, such as StartDate, EndDate.
