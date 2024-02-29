@@ -156,3 +156,4 @@ C:\Users\Apo\Desktop\Proiecte\BookerBE\obj\Debug\net8.0\refint\Booker.dll
 C:\Users\Apo\Desktop\Proiecte\BookerBE\obj\Debug\net8.0\Booker.pdb
 C:\Users\Apo\Desktop\Proiecte\BookerBE\obj\Debug\net8.0\Booker.genruntimeconfig.cache
 C:\Users\Apo\Desktop\Proiecte\BookerBE\obj\Debug\net8.0\ref\Booker.dll
+C:\Users\Apo\Desktop\Proiecte\BookerBE\obj\Debug\net8.0\Booker.sourcelink.json

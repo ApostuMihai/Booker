@@ -1,8 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using Booker.Models;
 
-namespace Booker.Models;
+namespace Booker.DTOs;
 
-public class Book
+public class BookDto
 {
     public int BookId { get; set; }
 
@@ -11,8 +11,8 @@ public class Book
     public string Author { get; set; }
 
     public string Genre { get; set; }
-
+    
     public string ImageUrl { get; set; }
 
-    public virtual ICollection<Review> Reviews { get; set; }
+    public virtual List<ReviewDto> Reviews { get; set; }
 }
