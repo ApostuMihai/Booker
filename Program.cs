@@ -1,7 +1,7 @@
 using System.Text.Json.Serialization;
 using Booker.Data;
 using Microsoft.EntityFrameworkCore;
-
+using Newtonsoft.Json;
 namespace Booker;
 
 public class Program
@@ -9,9 +9,18 @@ public class Program
     public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+        
 
         // Add services to the container.
         builder.Services.AddControllersWithViews();
+        builder.Services.AddControllers().AddJsonOptions(options =>
+        {
+            options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
+        });
+        // builder.Services.AddControllers().AddNewtonsoftJson(options =>
+        // {
+        //     options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
+        // });
         // builder.Services.AddControllers().AddJsonOptions(options =>
         // {
         //     options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;

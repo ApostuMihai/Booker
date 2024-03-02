@@ -12,6 +12,5 @@ public class UserDto
 
     public string ImageUrl { get; set; }
     
-    public virtual List<ReviewDto> Reviews { get; set; }
 
 }
