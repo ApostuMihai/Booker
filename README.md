@@ -1,4 +1,4 @@
-# BookerBE
+# Booker
  
 An ASP.NET Core project that is in progress. So far the plan is to create a small web application that will let users review books, add them to their profile and asign different statuses to them (unread, in progress and done). Users can also leave reviews for a book after reading it.
 
